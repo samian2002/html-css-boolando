@@ -14,6 +14,7 @@ a{
 }
 
 
+/*---header---*/
 header{
     background-color: #ff6900;
     box-shadow: 0 1px #666;
@@ -30,9 +31,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav a{
 
-}
 nav ul{
     list-style-type: none;
     display: flex;
@@ -61,7 +60,7 @@ height: 2rem;
 display: block;
 }
 
-
+/*---main---*/
 main{
     padding-top: 5rem;
 }
@@ -92,9 +91,6 @@ main{
     display: none;
 }
 
-
-
-
 .heart{
     height: 50px;
     width: 50px;
@@ -104,7 +100,6 @@ main{
     background-color: white;
     color: black;
     padding: 1rem;
-
 }
 
 .first{
@@ -118,7 +113,6 @@ main{
 .second-floor{
     color: red;
     display: none;
-
 }
 
 .firts-floor{
@@ -164,11 +158,10 @@ main{
     text-decoration: line-through;
 }
 
-
+/*---footer---*/
 footer{
 background-color: #222;
 margin-top: 2.5rem;
-
 }
 
 .content{
@@ -176,6 +169,7 @@ margin-top: 2.5rem;
     color: white;
     margin: 0 auto;
     padding-top: 1.5rem;
+    position: relative;
 }
 
 .info{
@@ -183,4 +177,10 @@ margin-top: 2.5rem;
     display: flex;
     gap: 10px;
     font-size: 12px;
+}
+
+.social{
+    position: absolute;
+    top: 1.5rem;
+    left: 81rem;
 }
