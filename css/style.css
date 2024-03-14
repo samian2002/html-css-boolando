@@ -164,3 +164,23 @@ main{
     text-decoration: line-through;
 }
 
+
+footer{
+background-color: #222;
+margin-top: 2.5rem;
+
+}
+
+.content{
+    width: 1400px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.info{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
