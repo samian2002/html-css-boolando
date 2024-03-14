@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    background-color: #ff6900;
+    box-shadow: 0 1px #666;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.left-menu{
+    width: 25%;
+}
+
+.logo-menu{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.right-menu{
+width: 25%;
+display: flex;
+justify-content: flex-end;
+}
+
+.right-menu-img{
+height: 2rem;
+display: block;
+}
+
+
+main{
+    padding-top: 5rem;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.card{
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+.width{
+    width: 100%;
+}
+
+.card-image{
+    position: relative;
+}
+
+.card:hover .second{
+    display: block;
+}
+
+.card:hover .first{
+    display: none;
+}
+
+
+
+
+.heart{
+    height: 50px;
+    width: 50px;
+    top: 10px;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+
+}
+
+.first{
+    display: block;
+}
+
+.second{
+    display: none;
+}
+
+.second-floor{
+    color: red;
+    display: none;
+
+}
+
+.firts-floor{
+    position: absolute;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    padding: 0.3rem;
+}
+
+.eco{
+    background-color: green;
+    color: white;
+    padding: 0.3rem;
+}
+
+.elements{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    gap: 5px;
+}
+
+.brand{
+    opacity: 70%;
+    font-size: 14px;
+}
+
+.name{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+}
+
+#line{
+    color: black;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
